@@ -1,7 +1,9 @@
 <div style="text-align:center">
   <img align="center" src="https://rawgithub.com/tychota/vostok/master/docs/vostok.svg">
 </div>
-<h1 align="center">vostok</h1>
+<p align="center">
+  <h1 align="center">vostok</h1>
+</p>
 <p align="center">
   <strong>A graphQL framework</strong>
 </p>
@@ -17,19 +19,14 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@vostok/framework.svg?style=flat-square)]()
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](#contributors)
 
-### Activity
-
-[![npm](https://img.shields.io/npm/dt/@vostok/framework.svg?style=flat-square)]()
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&style=flat-square)]()
-
-### Tests and Coverage
+### Tests and Coverage and Code quality
 
 [![Travis](https://img.shields.io/travis/tychota/vostok.svg?style=flat-square)]()
 [![Coveralls](https://img.shields.io/coveralls/tychota/vostok.svg?style=flat-square)]()
 
-### Code quality
-
 [![bitHound](https://img.shields.io/bithound/code/github/tychota/vostok.svg?style=flat-square)]()
+[![bitHound](https://img.shields.io/bithound/dependencies/github/tychota/vostok.svg?style=flat-square)]()
+[![bitHound](https://img.shields.io/bithound/devDependencies/github/tychota/vostok.svg?style=flat-square)]()
 
 ## Table of Contents
 

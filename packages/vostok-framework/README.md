@@ -1,7 +1,9 @@
 <div style="text-align:center">
   <img align="center" src="https://rawgithub.com/tychota/vostok/master/docs/vostok.svg">
 </div>
-<h1 align="center">vostok</h1>
+<p align="center">
+  <h1 align="center">vostok</h1>
+</p>
 <p align="center">
   <strong>The core module</strong>
 </p>

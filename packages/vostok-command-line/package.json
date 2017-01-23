@@ -1,5 +1,5 @@
 {
-  "name": "@vostok/cli",
+  "name": "@vostok/command-line",
   "version": "0.1.1",
   "description": "Vostok command line module",
   "main": "lib/index.js",
