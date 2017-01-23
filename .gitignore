@@ -1,0 +1,8 @@
+Store
+node_modules
+test/tmp
+*.log
+*.cache
+/coverage
+dist
+/packages/*/lib

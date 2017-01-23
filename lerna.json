@@ -1,0 +1,27 @@
+{
+  "lerna": "2.0.0-beta.32",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.1.1",
+  "changelog": {
+    "repo": "tychota/vostok",
+    "labels": {
+      "tag: spec compliancy": ":eyeglasses: Spec Compliancy",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: new feature": ":rocket: New Feature",
+      "tag: bug fix": ":bug: Bug Fix",
+      "tag: polish": ":nail_care: Polish",
+      "tag: documentation": ":memo: Documentation"
+    },
+    "cacheDir": ".changelog"
+  },
+  "linkedFiles": {
+    "prefix": "/**\n * @flow\n */\n"
+  },
+  "publishConfig": {
+    "ignore": [
+      "**/__test__/*.js"
+    ]
+  }
+}

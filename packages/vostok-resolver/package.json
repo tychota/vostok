@@ -1,0 +1,23 @@
+{
+  "name": "@vostok/resolver",
+  "version": "0.1.1",
+  "description": "Vostok resolver",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=7.0.0",
+    "npm": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/tychota/vostok#readme",
+  "repository": "https://github.com/tychota/vostok/tree/master/packages/vostok-resolver",
+  "bugs": "https://github.com/tychota/vostok/issues",
+  "author": "Tycho Tatitscheff",
+  "license": "MIT",
+  "keywords": [
+    "graphql",
+    "framework",
+    "apollo"
+  ]
+}

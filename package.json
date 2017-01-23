@@ -1,0 +1,68 @@
+{
+  "private": true,
+  "author": "Tycho Tatitscheff",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "changelog": "lerna-changelog",
+    "clean": "lerna clean",
+    "publish": "git pull origin master --rebase && npm run build && npm test && lerna publish --access public",
+    "precommit": "./hooks/pre-commit",
+    "updated": "lerna updated",
+    "lint": "eslint packages/*/src packages/*/__tests__ scripts/*.js",
+    "fix": "eslint packages/*/src packages/*/__tests__ scripts/*.js --fix",
+    "test": "jest --coverage",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "ci": "npm run lint && npm run bootstrap && jest"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
+    "testEnvironment": "node",
+    "testPathDirs": [
+      "packages"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-preset-env": "^1.1.8",
+    "babili": "^0.0.10",
+    "bithound": "^1.7.0",
+    "bytes": "^2.4.0",
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "coveralls": "^2.11.15",
+    "cz-lerna-changelog": "^1.0.0",
+    "eslint": "^3.14.0",
+    "eslint-config-react-app": "^0.5.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-util": "^3.0.8",
+    "husky": "^0.13.0",
+    "jest-cli": "^18.1.0",
+    "lerna": "2.0.0-beta.32",
+    "lerna-changelog": "^0.2.3",
+    "lerna-npm-readme-hack": "^1.0.6",
+    "prettier": "^0.0.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}

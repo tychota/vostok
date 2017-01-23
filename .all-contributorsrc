@@ -1,0 +1,22 @@
+{
+  "projectName": "vostok",
+  "projectOwner": "tychota",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "tychota",
+      "name": "TychoTa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13785185?v=3",
+      "profile": "https://twitter.com/TychoTa",
+      "contributions": [
+        "code",
+        "doc",
+        "example"
+      ]
+    }
+  ]
+}
