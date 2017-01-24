@@ -13,8 +13,6 @@
 
 ## Badges
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/tychota/vostok.svg)](https://greenkeeper.io/)
-
 ### Open Source
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
@@ -25,6 +23,7 @@
 
 [![Travis](https://img.shields.io/travis/tychota/vostok.svg?style=flat-square)]()
 [![Coveralls](https://img.shields.io/coveralls/tychota/vostok.svg?style=flat-square)]()
+[![Greenkeeper badge](https://badges.greenkeeper.io/tychota/vostok.svg)](https://greenkeeper.io/)
 
 [![bitHound](https://img.shields.io/bithound/code/github/tychota/vostok.svg?style=flat-square)]()
 [![bitHound](https://img.shields.io/bithound/dependencies/github/tychota/vostok.svg?style=flat-square)]()
