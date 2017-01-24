@@ -46,7 +46,7 @@
     "eslint-config-react-app": "^0.5.0",
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^6.1.2",
@@ -58,7 +58,7 @@
     "lerna": "2.0.0-beta.32",
     "lerna-changelog": "^0.2.3",
     "lerna-npm-readme-hack": "^1.0.6",
-    "prettier": "^0.0.10"
+    "prettier": "^0.11.0"
   },
   "config": {
     "commitizen": {
