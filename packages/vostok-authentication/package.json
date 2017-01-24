@@ -1,6 +1,6 @@
 {
   "name": "@vostok/authentication",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vostok authentication module",
   "main": "lib/index.js",
   "engines": {
