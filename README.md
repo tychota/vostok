@@ -13,6 +13,8 @@
 
 ## Badges
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tychota/vostok.svg)](https://greenkeeper.io/)
+
 ### Open Source
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
