@@ -1,6 +1,6 @@
 {
   "name": "@vostok/framework",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Vostok core package",
   "main": "lib/index.js",
   "engines": {
