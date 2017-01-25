@@ -4,7 +4,7 @@ import koaRouter from "koa-router";
 import koaBody from "koa-bodyparser";
 import { graphqlKoa } from "graphql-server-koa";
 
-function server() {
+function getVostokServer() {
   const app = new koa();
   const router = new koaRouter();
 
@@ -17,4 +17,4 @@ function server() {
   return app;
 }
 
-export default { server };
+export default getVostokServer;

@@ -1,2 +1,2 @@
-import { server } from "vostok-framework";
-server.listen();
+import { server } from "@vostok/framework";
+console.log(server);
