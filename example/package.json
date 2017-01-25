@@ -1,0 +1,12 @@
+{
+  "name": "vostok-example",
+  "version": "0.1.4",
+  "description": "The vostok example",
+  "main": "index.js",
+  "repository": {},
+  "author": "Tycho Tatitschefff",
+  "license": "MIT",
+  "dependencies": {
+    "@vostok/framework": "^0.1.4"
+  }
+}
