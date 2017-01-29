@@ -1,6 +1,6 @@
 {
   "name": "@vostok/authorization",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "description": "Vostok authorization package",
   "main": "lib/index.js",
   "engines": {

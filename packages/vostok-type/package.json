@@ -1,6 +1,6 @@
 {
   "name": "@vostok/mocking",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "Vostok type",
   "main": "lib/index.js",
   "engines": {

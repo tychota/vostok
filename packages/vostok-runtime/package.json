@@ -1,6 +1,6 @@
 {
   "name": "@vostok/runtime",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "description": "Vostok runtime",
   "main": "lib/index.js",
   "engines": {

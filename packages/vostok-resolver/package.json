@@ -1,6 +1,6 @@
 {
   "name": "@vostok/resolver",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "description": "Vostok resolver",
   "main": "lib/index.js",
   "engines": {

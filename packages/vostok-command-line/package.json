@@ -1,6 +1,6 @@
 {
   "name": "@vostok/command-line",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "description": "Vostok command line module",
   "main": "lib/index.js",
   "engines": {
