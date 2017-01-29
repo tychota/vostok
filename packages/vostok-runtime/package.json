@@ -1,7 +1,7 @@
 {
-  "name": "@vostok/mocking",
-  "version": "0.1.4",
-  "description": "Vostok type",
+  "name": "@vostok/runtime",
+  "version": "0.1.3",
+  "description": "Vostok runtime",
   "main": "lib/index.js",
   "engines": {
     "node": ">=7.0.0",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "homepage": "https://github.com/tychota/vostok#readme",
-  "repository": "https://github.com/tychota/vostok/tree/master/packages/vostok-type",
+  "repository": "https://github.com/tychota/vostok/tree/master/packages/vostok-runtime",
   "bugs": "https://github.com/tychota/vostok/issues",
   "author": "Tycho Tatitscheff",
   "license": "MIT",
@@ -21,6 +21,10 @@
     "apollo"
   ],
   "dependencies": {
-    "dataloader": "^1.2.0"
+    "jest-haste-map": "^18.1.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "jest-config": "^18.1.0"
   }
 }

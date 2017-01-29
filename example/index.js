@@ -1,3 +1,3 @@
-import test from "@vostok/framework";
+import server from "@vostok/framework";
 
-test.server().listen(3000);
+server().listen(3000);

@@ -1,2 +1,7 @@
 // @flow
-export default {};
+const packages = {
+  gatherType: () => {
+  },
+};
+
+export default packages;

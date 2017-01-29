@@ -28,9 +28,9 @@
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.4.tgz#9aabc135979ded383325749f508894c662948c8b"
 
-"@vostok/framework@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@vostok/framework/-/framework-0.1.5.tgz#62a70d09fe6a19e986a0bc8d0455b89902338f75"
+"@vostok/framework@^0.1.6":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@vostok/framework/-/framework-0.1.7.tgz#58276f9f3c2c1db52cbc92ccb14606be70aaae32"
   dependencies:
     graphql "^0.8.0"
     graphql-server-koa "^0.5.2"

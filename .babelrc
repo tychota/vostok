@@ -1,5 +1,6 @@
 {
   "presets": [
+    {"plugins": "transform-flow-strip-types"},
     [
       "env",
       {
@@ -9,6 +10,5 @@
       }
     ],
     "babili"
-  ],
-  "plugins": ["syntax-flow"]
+  ]
 }

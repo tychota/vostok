@@ -1,12 +1,9 @@
 [ignore]
-.*/packages/.*/lib
-.*/packages/.*/test
+.*/packages/*/lib
+.*/packages/*/test
 
 [include]
 packages/*/src
-
-[libs]
-.*/types/.*
 
 [options]
 suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

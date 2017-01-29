@@ -23,8 +23,10 @@
   "dependencies": {
     "graphql": "^0.8.0",
     "graphql-server-koa": "^0.5.2",
+    "graphql-tools": "^0.9.2",
     "koa": "next",
     "koa-bodyparser": "next",
+    "koa-helmet": "^3.1.0",
     "koa-router": "next"
   }
 }
