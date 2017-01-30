@@ -56,7 +56,7 @@
     "husky": "^0.13.0",
     "jest-cli": "^18.1.0",
     "lerna": "2.0.0-beta.32",
-    "lerna-changelog": "^0.2.3",
+    "lerna-changelog": "^0.3.0",
     "prettier": "^0.13.1"
   },
   "config": {
