@@ -1,5 +1,5 @@
 {
-  "name": "@vostok/mocking",
+  "name": "@vostok/type",
   "version": "0.1.4",
   "description": "Vostok type",
   "main": "lib/index.js",
