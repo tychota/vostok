@@ -1,11 +1,11 @@
 {
   "name": "@vostok/framework",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Vostok core package",
   "main": "lib/index.js",
   "engines": {
-    "node": ">=7.0.0",
-    "npm": ">=3.0.0"
+    "node": ">=7.6.0",
+    "npm": ">=4.3.0"
   },
   "publishConfig": {
     "access": "public"
@@ -21,10 +21,10 @@
     "apollo"
   ],
   "dependencies": {
-    "graphql": "^0.8.0",
-    "graphql-server-koa": "^0.5.2",
-    "koa": "next",
-    "koa-bodyparser": "next",
+    "graphql": "^0.9.1",
+    "graphql-server-koa": "^0.6.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.1.0",
     "koa-router": "next"
   }
 }

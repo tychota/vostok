@@ -1,9 +1,9 @@
 {
-  "lerna": "2.0.0-beta.32",
+  "lerna": "2.0.0-beta.38",
   "packages": [
     "packages/*"
   ],
-  "version": "0.1.7",
+  "version": "independent",
   "changelog": {
     "repo": "tychota/vostok",
     "labels": {

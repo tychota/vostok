@@ -2,8 +2,7 @@
 import koa from "koa";
 import koaRouter from "koa-router";
 import koaBody from "koa-bodyparser";
-import { graphqlKoa } from "graphql-server-koa";
-import { graphiqlKoa } from "graphql-server-koa";
+import { graphqlKoa, graphiqlKoa } from "graphql-server-koa";
 
 function getVostokServer() {
   const app = new koa();

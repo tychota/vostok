@@ -7,9 +7,17 @@ cache:
   directories:
   - node_modules
   - $HOME/.yarn-cache
+  - packages/vostok-authentication/node_modules
+  - packages/vostok-authorization/node_modules
+  - packages/vostok-command-line/node_modules
+  - packages/vostok-connector-postgres/node_modules
+  - packages/vostok-framework/node_modules
+  - packages/vostok-mocking/node_modules
+  - packages/vostok-resolver/node_modules
+  - packages/vostok-type/node_modules
 
 node_js:
-- '7'
+- '7.6.0'
 
 script:
 - 'if [ -n "${LINT-}" ]; then npm run lint ; fi'
