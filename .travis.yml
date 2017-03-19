@@ -1,6 +1,6 @@
 ---
 git:
-  depth: 10
+  depth: 1
 sudo: false
 language: node_js
 cache:
@@ -19,15 +19,10 @@ cache:
 node_js:
 - '7.6.0'
 
+before_install: .travis/before_install.sh
+after_success: .travis/after_success.sh
 script:
-- 'if [ -n "${LINT-}" ]; then npm run lint ; fi'
-- npm run bootstrap
-- npm run build
-- npm run test
-- ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info
-
-matrix:
-  fast_finish: true
-  include:
-    - node_js: "node"
-      env: LINT=true
+  - npm run lint
+  -  npm test
+  - npm run test
+  - ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info

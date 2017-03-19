@@ -25,6 +25,6 @@
     "graphql-server-koa": "^0.6.0",
     "koa": "^2.2.0",
     "koa-bodyparser": "^4.1.0",
-    "koa-router": "next"
+    "koa-router": "^7.1.0"
   }
 }
