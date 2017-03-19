@@ -7,6 +7,6 @@
   "author": "Tycho Tatitschefff",
   "license": "MIT",
   "dependencies": {
-    "@vostok/framework": "^0.1.6"
+    "@vostok/framework": "^0.3.0"
   }
 }

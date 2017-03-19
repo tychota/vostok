@@ -1,3 +1,3 @@
-import test from "@vostok/framework";
+const test = require("@vostok/framework");
 
 test.server().listen(3000);
